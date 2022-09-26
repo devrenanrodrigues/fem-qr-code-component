@@ -32,36 +32,34 @@ body {
   align-items: center;
 }
 
-.card-container {
+main {
   background-color: var(--clr-white);
-  max-width: 320px;
+  max-width: 32rem;
   padding: 1.6rem;
   border-radius: 2rem;
-}
-
-.card-image {
-  max-width: 100%;
-  border-radius: 1rem;
-}
-
-.card-content {
-  margin-block: 2rem;
-  padding-inline: 10px;
   text-align: center;
 }
 
-.card-title {
+img {
+  max-width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+h1 {
   font-size: var(--fs-title);
   font-weight: var(--fw-700);
   color: var(--clr-dark-blue);
   margin-bottom: 2rem;
 }
 
-.card-text {
+p {
   font-size: var(--fs-body);
   font-weight: var(--fw-400);
   color: var(--clr-grayish-blue);
-  letter-spacing: 0.1px;
+  letter-spacing: 0.01rem;
+  margin-bottom: 2rem;
+  padding-inline: 2rem;
 }
 
 .attribution { 
